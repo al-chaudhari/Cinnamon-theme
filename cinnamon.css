@@ -1355,6 +1355,7 @@ StScrollBar StButton#hhandle:active {
 
 /* ------------ALT TAB DONE */
 
+/* ?? */
 .thumbnail-scroll-gradient-left {
   background-color: transparent;
   border-radius: 24px;
@@ -1363,6 +1364,7 @@ StScrollBar StButton#hhandle:active {
   width: 60px;
 }
 
+/* ?? */
 .thumbnail-scroll-gradient-right {
   background-color: transparent;
   border-radius: 24px;
@@ -1371,6 +1373,7 @@ StScrollBar StButton#hhandle:active {
   width: 60px;
 }
 
+/* ?? */
 .ripple-box {
   width: 104px;
   height: 104px;
@@ -1378,14 +1381,17 @@ StScrollBar StButton#hhandle:active {
   background-size: contain;
 }
 
+/* ?? */
 .ripple-box:rtl {
   background-image: url("common-assets/misc/corner-ripple.svg");
 }
 
+/* ?? */
 .lightbox {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+/* ?? */
 .flashspot {
   background-color: white;
 }
