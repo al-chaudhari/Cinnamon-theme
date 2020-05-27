@@ -567,6 +567,10 @@ StScrollBar StButton#hhandle:active {
   spacing: 0.5em;
 }
 
+/**
+ * Panel Start Here
+ */
+
 #panel {
   font-weight: bold;
   /* sets the height of horizontal panels */
