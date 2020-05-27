@@ -1301,6 +1301,7 @@ StScrollBar StButton#hhandle:active {
   border: 1px solid #d9d9d9;
   background-color: #D9D9D9;
   border-radius: 3px;
+  background-image: url("peak/peak.svg");
   padding: 20px;
 }
 
@@ -1319,13 +1320,13 @@ StScrollBar StButton#hhandle:active {
 
 .switcher-list .item-box:outlined {
   padding: 8px;
-  border: 1px solid #92b372;
+  border: 1px solid #262626;
 }
 
 .switcher-list .item-box:selected {
   color: #ffffff;
-  background-color: #92b372;
-  border: 0px solid #92b372;
+  background-color: #737373;
+  border: 0px solid #D9D9D9;
 }
 
 .switcher-list .thumbnail {
@@ -1351,6 +1352,8 @@ StScrollBar StButton#hhandle:active {
   border-color: transparent;
   color: #ffffff;
 }
+
+/* ------------ALT TAB DONE */
 
 .thumbnail-scroll-gradient-left {
   background-color: transparent;
