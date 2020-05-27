@@ -375,11 +375,15 @@ StScrollBar StButton#hhandle:active {
   padding: 8px;
 }
 
+/**
+ * This is the Main Menu which you
+ * Use to Access the Application
+ */
 .menu {
-  color: #202020;
+  color: #262626;
   border: 1px solid #d9d9d9;
   border-radius: 3px;
-  background-color: rgba(240, 240, 240, 0.99);
+  background-color: #D9D9D9;
 }
 
 .menu.top {
