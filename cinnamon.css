@@ -893,23 +893,28 @@ StScrollBar StButton#hhandle:active {
 
 /* ---------Panel End------------ */
 
+/* ?? */
 .system-status-icon {
   icon-size: 16px;
   padding: 0 1px;
 }
 
+/* ?? */
 .system-status-icon.warning {
   color: #f27835;
 }
 
+/* ?? */
 .system-status-icon.error {
   color: #fc4138;
 }
 
+/* ?? */
 #overview {
   spacing: 12px;
 }
 
+/* ?? */
 .window-caption {
   background-color: #353535;
   border: 1px solid #353535;
@@ -921,12 +926,14 @@ StScrollBar StButton#hhandle:active {
   -cinnamon-caption-spacing: 8px;
 }
 
+/* ?? */
 .window-caption:focus {
   background-color: #92b372;
   color: #ffffff;
   border: 1px solid #92b372;
 }
 
+/* ?? */
 .window-border {
   border: 3px #92b372;
   border-radius: 2px;
@@ -935,6 +942,7 @@ StScrollBar StButton#hhandle:active {
   box-shadow: 0 0 0 1px #92b372 inset;
 }
 
+/* ?? */
 .overview-empty-placeholder {
   color: #ffffff;
   font-size: 2em;
