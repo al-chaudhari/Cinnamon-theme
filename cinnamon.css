@@ -778,6 +778,8 @@ StScrollBar StButton#hhandle:active {
   transition-duration: 100;
 }
 
+/* ---------Panel End------------ */
+
 .system-status-icon {
   icon-size: 16px;
   padding: 0 1px;
