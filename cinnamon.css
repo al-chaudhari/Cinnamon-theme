@@ -948,6 +948,10 @@ StScrollBar StButton#hhandle:active {
   font-size: 2em;
 }
 
+/* -------------------
+ * -------- Expo Stuff
+ * -------------------
+*/
 .expo-workspaces-name-entry,
 .expo-workspaces-name-entry#selected {
   height: 1.5em;
@@ -1049,6 +1053,12 @@ StScrollBar StButton#hhandle:active {
   width: 400px;
 }
 
+/* ---------------------- */
+
+/* ------------------
+ * ----------Calender
+ * ------------------
+ */
 .calendar {
   padding: 0.4em 1.75em;
   spacing-rows: 0px;
@@ -1056,7 +1066,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .calendar-month-label {
-  color: #202020;
+  color: #262626;
   font-weight: bold;
   padding: 8px 0;
 }
@@ -1124,7 +1134,7 @@ StScrollBar StButton#hhandle:active {
   font-weight: bold;
   font-size: 1.15em;
   text-align: center;
-  color: #202020;
+  color: #262626;
   border-radius: 2px;
 }
 
@@ -1138,14 +1148,14 @@ StScrollBar StButton#hhandle:active {
 }
 
 .calendar-day-heading {
-  color: rgba(32, 32, 32, 0.85);
+  color: #404040;
   margin-top: 1em;
   font-size: 1.05em;
 }
 
 .calendar-day {
   border-width: 0;
-  color: rgba(32, 32, 32, 0.9);
+  color: #404040;
 }
 
 .calendar-day-top {
@@ -1157,7 +1167,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .calendar-nonwork-day {
-  color: #202020;
+  color: #404040;
   background-color: transparent;
   font-weight: bold;
 }
@@ -1168,7 +1178,7 @@ StScrollBar StButton#hhandle:active {
 .calendar-today:hover {
   font-weight: bold;
   color: #ffffff;
-  background-color: #92b372;
+  background-color: #404040;
   border-width: 0;
 }
 
@@ -1182,6 +1192,9 @@ StScrollBar StButton#hhandle:active {
   font-size: 0.8em;
   margin-top: 0.8em;
 }
+
+/* --------------------------- */
+
 
 #notification {
   border: 1px solid #d9d9d9;
@@ -1573,6 +1586,11 @@ StScrollBar StButton#hhandle:active {
   -arrow-rise: 10px;
   -boxpointer-gap: 5px;
 }
+
+/*-------------------------
+ *------ Menu Favourite Box
+ *-------------------------
+ */
 
 .menu-favorites-box {
   padding: 10px;
