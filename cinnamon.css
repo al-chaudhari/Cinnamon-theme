@@ -952,6 +952,8 @@ StScrollBar StButton#hhandle:active {
  * -------- Expo Stuff
  * -------------------
 */
+
+/* Box with you enter name of workspace */
 .expo-workspaces-name-entry,
 .expo-workspaces-name-entry#selected {
   height: 1.5em;
@@ -965,31 +967,36 @@ StScrollBar StButton#hhandle:active {
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
+/* Working naming box in focus state */
 .expo-workspaces-name-entry:focus,
 .expo-workspaces-name-entry#selected:focus {
-  border: 1px solid #92b372;
-  background-color: #92b372;
-  color: #ffffff;
+  border: 1px solid #D9D9D9;
+  background-color: #D9D9D9;
+  color: #262626;
   font-style: italic;
   transition-duration: 300;
-  selection-background-color: #ffffff;
-  selected-color: #92b372;
+  selection-background-color: #262626;
+  selected-color: #D9D9D9;
 }
 
+/* Each Frame or Box in Workspace */
 .expo-workspace-thumbnail-frame {
   border: 4px solid rgba(255, 255, 255, 0);
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #D9D9D9;
   border-radius: 2px;
 }
 
+/* Current Active Workspace Switcher */
 .expo-workspace-thumbnail-frame#active {
-  border: 4px solid #92b372;
+  border: 4px solid #262626;
   background-color: black;
   border-radius: 2px;
 }
 
+/* Actual Background */
 .expo-background {
-  background-color: #353535;
+  background-color: #262626;
+  background-image: url("peak/peakm-dark.png");
 }
 
 .workspace-thumbnails {
@@ -1008,11 +1015,13 @@ StScrollBar StButton#hhandle:active {
   transition-duration: 100;
 }
 
+/* Button */
 .workspace-add-button:hover {
   background-image: url("common-assets/misc/add-workspace-hover.svg");
   transition-duration: 100;
 }
 
+/* Button */
 .workspace-add-button:active {
   background-image: url("common-assets/misc/add-workspace-active.svg");
   transition-duration: 100;
@@ -1195,17 +1204,20 @@ StScrollBar StButton#hhandle:active {
 
 /* --------------------------- */
 
-
+/**------------
+ * Notification
+ *------------
+ */
 #notification {
   border: 1px solid #d9d9d9;
-  border-radius: 3px;
-  background-color: #f0f0f0;
+  background-color: #D9D9D9;
   padding: 13px;
   spacing-rows: 10px;
+  background-image: url("peak/peakm-dark.png");
   spacing-columns: 10px;
   margin-from-right-edge-of-screen: 20px;
   width: 34em;
-  color: #202020;
+  color: #D9D9D9;
 }
 
 .popup-menu #notification {
@@ -1218,49 +1230,66 @@ StScrollBar StButton#hhandle:active {
   padding: 5px;
 }
 
+/* Miltiline Notification */
 #notification.multi-line-notification {
   padding-bottom: 13px;
-  color: #202020;
+  color: #D9D9D9;
 }
 
+/* Where you Scrool in notification */
 #notification-scrollview {
   max-height: 10em;
 }
 
+/* Ignore */
 #notification-scrollview>.top-shadow,
 #notification-scrollview>.bottom-shadow {
   height: 1em;
 }
 
+/* Ingore */
 #notification-scrollview:ltr>StScrollBar {
   padding-left: 6px;
 }
 
+/* Ignore*/
 #notification-scrollview:rtl>StScrollBar {
   padding-right: 6px;
 }
 
+/* Ignore */
 #notification-body {
   spacing: 5px;
 }
 
+/* Ignore */
 #notification-actions {
   spacing: 10px;
 }
 
+/* Ignore */
 .notification-with-image {
   min-height: 159px;
-  color: #202020;
+  color: #D9D9D9;
 }
 
+/* Ignore */
 .notification-button,
 .notification-icon-button {
   padding: 5px;
 }
 
+/* Ignore */
 .notification-icon-button>StIcon {
   icon-size: 32px;
 }
+
+/* ------------ */
+
+/*------------
+ *Alt Tab List
+ *------------
+ */
 
 #altTabPopup {
   padding: 8px;
@@ -1270,7 +1299,7 @@ StScrollBar StButton#hhandle:active {
 .switcher-list {
   color: #202020;
   border: 1px solid #d9d9d9;
-  background-color: #f0f0f0;
+  background-color: #D9D9D9;
   border-radius: 3px;
   padding: 20px;
 }
@@ -1595,8 +1624,9 @@ StScrollBar StButton#hhandle:active {
 .menu-favorites-box {
   padding: 10px;
   transition-duration: 300;
-  background-color: #ffffff;
+  background-color: #262626;
   border: 1px solid #d9d9d9;
+  border-radius: 5px;
 }
 
 .menu-favorites-button {
@@ -1606,7 +1636,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .menu-favorites-button:hover {
-  background-color: #92b372;
+  background-color: #D9D9D9;
 }
 
 .menu-places-box {
