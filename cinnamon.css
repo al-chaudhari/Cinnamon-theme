@@ -912,7 +912,7 @@ StScrollBar StButton#hhandle:active {
   spacing: 12px;
 }
 
-/* ?? */
+/* Dont Know What is This */
 .window-caption {
   background-color: #353535;
   border: 1px solid #353535;
@@ -924,14 +924,14 @@ StScrollBar StButton#hhandle:active {
   -cinnamon-caption-spacing: 8px;
 }
 
-/* ?? */
+/* Don't Know what is this */
 .window-caption:focus {
   background-color: #92b372;
   color: #ffffff;
   border: 1px solid #92b372;
 }
 
-/* ?? */
+/* Window Know what is this */
 .window-border {
   border: 3px #92b372;
   border-radius: 2px;
