@@ -1353,7 +1353,7 @@ StScrollBar StButton#hhandle:active {
 
 /* ------------ALT TAB DONE */
 
-/* ?? */
+/* ? What is This */
 .thumbnail-scroll-gradient-left {
   background-color: transparent;
   border-radius: 24px;
@@ -1362,7 +1362,7 @@ StScrollBar StButton#hhandle:active {
   width: 60px;
 }
 
-/* ?? */
+/* ? What is This */
 .thumbnail-scroll-gradient-right {
   background-color: transparent;
   border-radius: 24px;
@@ -1371,7 +1371,7 @@ StScrollBar StButton#hhandle:active {
   width: 60px;
 }
 
-/* ?? */
+/* I Think Circle  */
 .ripple-box {
   width: 104px;
   height: 104px;
@@ -1393,6 +1393,8 @@ StScrollBar StButton#hhandle:active {
 .flashspot {
   background-color: white;
 }
+
+/** ----------- Modal Stuff -------- */
 
 .modal-dialog {
   background-color: #f0f0f0;
