@@ -1931,12 +1931,13 @@ StScrollBar StButton#hhandle:active {
   spacing: 6px;
   color: #202020;
   border: 1px solid #d9d9d9;
-  background-color: #f0f0f0;
+  background-color: #D9D9D9;
   border-radius: 3px;
   padding: 6px 12px 12px 12px;
   font-size: 1em;
 }
 
+/** This is what you View when you window button and it Pops up */
 .grouped-window-list-item-label {
   font-weight: bold;
   width: 15em;
@@ -1987,17 +1988,18 @@ StScrollBar StButton#hhandle:active {
 .grouped-window-list-item-box:hover,
 .grouped-window-list-item-box:focus {
   color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #737373;
 }
 
+/* Dash Below Icon */
 .grouped-window-list-item-box:active,
 .grouped-window-list-item-box:checked {
   color: #ffffff;
-  border-color: #92b372;
+  border-color: #737373;
 }
 
 .grouped-window-list-item-box .progress {
-  background-color: rgba(146, 179, 114, 0.8);
+  background-color: #D9D9D9;
 }
 
 .grouped-window-list-item-demands-attention {
@@ -2030,8 +2032,8 @@ StScrollBar StButton#hhandle:active {
 
 .grouped-window-list-thumbnail-menu {
   color: #202020;
-  border: 1px solid #d9d9d9;
-  background-color: #f0f0f0;
+  border: 1px solid #D9D9D9;
+  background-color: #D9D9D9;
   border-radius: 3px;
   padding: 0px;
 }
@@ -2048,13 +2050,13 @@ StScrollBar StButton#hhandle:active {
 
 .grouped-window-list-thumbnail-menu .item-box:outlined {
   padding: 8px;
-  border: 1px solid #92b372;
+  border: 1px solid #737373;
 }
 
 .grouped-window-list-thumbnail-menu .item-box:selected {
   color: #ffffff;
-  background-color: #92b372;
-  border: 0px solid #92b372;
+  background-color: #404040;
+  border: 0px solid #404040;
 }
 
 .grouped-window-list-thumbnail-menu .thumbnail {
@@ -2063,8 +2065,10 @@ StScrollBar StButton#hhandle:active {
 
 .grouped-window-list-thumbnail-menu .separator {
   width: 1px;
-  background: rgba(255, 255, 255, 0.2);
+  background: #737373;
 }
+
+/**------------------Ends Here--------------*/
 
 .sound-button {
   width: 22px;
