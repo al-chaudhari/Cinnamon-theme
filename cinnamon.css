@@ -2156,20 +2156,19 @@ StScrollBar StButton#hhandle:active {
 
 .sound-player>StBoxLayout:first-child StButton:small:hover {
   color: #202020;
-  background-color: white;
+  background-color: #D9D9D9;
   border: 1px solid #d9d9d9;
   box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.05);
 }
 
 .sound-player>StBoxLayout:first-child StButton:small:active {
   color: #ffffff;
-  background-color: #92b372;
-  border: 1px solid #92b372;
-  box-shadow: inset 0 2px 4px #92b372;
+  background-color: #262626;
+  border: 1px solid #262626;
 }
 
 .sound-player-generic-coverart {
-  background: rgba(0, 0, 0, 0.2);
+  background: #737373;
 }
 
 .sound-player-overlay {
@@ -2177,7 +2176,7 @@ StScrollBar StButton#hhandle:active {
   height: 70px;
   padding: 15px;
   spacing: 0.5em;
-  background: rgba(240, 240, 240, 0.9);
+  background: #D9D9D9;
   border-top: 1px solid #d9d9d9;
   color: #202020;
 }
@@ -2195,18 +2194,17 @@ StScrollBar StButton#hhandle:active {
   icon-size: 16px;
 }
 
+/* These are Actual Buttons */
 .sound-player-overlay StButton:hover {
-  color: #202020;
-  background-color: white;
-  border: 1px solid #d9d9d9;
-  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.05);
+  color: #D9D9D9;
+  background-color: #262626;
+  border: 1px solid #262626;
 }
 
 .sound-player-overlay StButton:active {
   color: #ffffff;
-  background-color: #92b372;
-  border: 1px solid #92b372;
-  box-shadow: inset 0 2px 4px #92b372;
+  background-color: #262626;
+  border: 1px solid #262626;
 }
 
 .sound-player-overlay StBoxLayout {
@@ -2222,9 +2220,9 @@ StScrollBar StButton#hhandle:active {
   padding: 0;
   border: none;
   -slider-height: 0.5em;
-  -slider-background-color: #cfd6e6;
+  -slider-background-color: #D9D9D9;
   -slider-border-color: transparent;
-  -slider-active-background-color: #92b372;
+  -slider-active-background-color: #262626;
   -slider-active-border-color: transparent;
   -slider-border-width: 0px;
   -slider-handle-radius: 0px;
@@ -2392,7 +2390,7 @@ StScrollBar StButton#hhandle:active {
 .applet-box:hover,
 .applet-box:checked {
   color: #ffffff;
-  background-color: #92b372;
+  background-color: #737373;
 }
 
 .applet-box:hover-label,
