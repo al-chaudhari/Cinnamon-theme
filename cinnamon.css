@@ -1914,11 +1914,11 @@ StScrollBar StButton#hhandle:active {
 .window-list-item-box:focus,
 .window-list-item-box:running {
   color: #ffffff;
-  border-color: #92b372;
+  border-color: #262626;
 }
 
 .window-list-item-box .progress {
-  background-color: rgba(146, 179, 114, 0.8);
+  background-color: #262626;
 }
 
 .window-list-item-demands-attention {
